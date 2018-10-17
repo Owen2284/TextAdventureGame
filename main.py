@@ -3,10 +3,13 @@ def main():
     playerName = input("Please enter thy name: ")
     print("Hello " + playerName + "!")
 
+<<<<<<< HEAD
     #test
     #thecoolertest
     #3isnothashcoolesttest
 
+=======
+>>>>>>> 4d05675033f7d4ee6127f716e4fa85210e680168
     playing = True
     endingNumber = -1
     
