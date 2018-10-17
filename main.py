@@ -4,6 +4,7 @@ def main():
     print("Hello " + playerName + "!")
 
     #test
+    #thecoolertest
 
     playing = True
     endingNumber = -1
