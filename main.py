@@ -5,6 +5,7 @@ def main():
 
     #test
     #thecoolertest
+    #3isnothashcoolesttest
 
     playing = True
     endingNumber = -1
