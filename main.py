@@ -3,9 +3,6 @@ def main():
     playerName = input("Please enter thy name: ")
     print("Hello " + playerName + "!")
 
-    #test
-    #thecoolertest
-
     playing = True
     endingNumber = -1
     
