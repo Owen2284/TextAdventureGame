@@ -3,6 +3,7 @@ def main():
     docstring test - main() will serve as the body of the game.
     """
     # === INITIALISATION =======================================================================
+    actionListPhaseOne = ["look around", "quit"]
     print("lalalal backstory ur a skellington who wants out of this hell ayy lmao")
     
     playerName = input("Please enter thy name: ")
@@ -27,7 +28,7 @@ def main():
     # === GAMELOOP =============================================================================
     while (playing):
         print("What do you do?")
-        actionListPhaseOne = ["look around", "quit"]
+        
         print(actionListPhaseOne)
         action = input("Please enter your action: ").lower()
         print(">" + action)
@@ -41,7 +42,10 @@ def main():
 
         if action == "look around" and isImmobilised is True:
             playing = True
-            actionListPhaseOne.insert(1, "free yourself")
+            #Not sure if this will even work - I want to add options as the game runs, certain actions 
+            #unlock other actions, and disable no longer valid ones.
+            
+            actionListPhaseOne.append("free yourself")
             print("You try to LOOK AROUND. Sadly, your head is stuck!")
 
     # ==========================================================================================
