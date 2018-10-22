@@ -33,6 +33,7 @@ def main():
         action = input("Please enter your action: ").lower()
         print(">" + action)
    
+<<<<<<< HEAD
     # actionLists will be printed at the start of each 'turn' once populated with the immediate  
     # options available to a player. PhaseOne denotes the start of a game session.
    
@@ -42,6 +43,9 @@ def main():
 
         if action == "look around" and isImmobilised is True:
             playing = True
+=======
+        if action == "look around" and isImmobilised is True:
+>>>>>>> 7738a6fd6b270f17d8288fa44778f477028920cc
             #Not sure if this will even work - I want to add options as the game runs, certain actions 
             #unlock other actions, and disable no longer valid ones.
             
