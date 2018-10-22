@@ -1,7 +1,11 @@
+from data import rooms;
+
 def main():
     """
     Serve as the body of the game.
     """
+
+    print(rooms)
 
     # === INITIALISATION =======================================================================
     # Initialising game variables
@@ -34,19 +38,7 @@ def main():
         action = input("Please enter your action: ").lower()
         print(">" + action)
    
-<<<<<<< HEAD
         if action == "look around" and isImmobilised is True:
-=======
-    # actionLists will be printed at the start of each 'turn' once populated with the immediate  
-    # options available to a player. PhaseOne denotes the start of a game session.
-   
-        if action == "quit":
-            playing = False
-            endingNumber = 0
-
-        if action == "look around" and isImmobilised is True:
-            playing = True
->>>>>>> 72d90b85340c5ce24e100cebd6ead08f118526fd
             #Not sure if this will even work - I want to add options as the game runs, certain actions 
             #unlock other actions, and disable no longer valid ones.
             
