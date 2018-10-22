@@ -34,7 +34,7 @@ def main():
         action = input("Please enter your action: ").lower()
         print(">" + action)
    
-         if action == "look around" and isImmobilised is True:
+        if action == "look around" and isImmobilised is True:
             #Not sure if this will even work - I want to add options as the game runs, certain actions 
             #unlock other actions, and disable no longer valid ones.
             
